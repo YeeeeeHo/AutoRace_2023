@@ -16,11 +16,14 @@ Written based on ROBOTIS_autorace_2020
   -> ubuntu 20.04 Desktop image Download
   ![스크린샷 2023-10-11 19 30 37](https://github.com/YeeeeeHo/AutoRace_2023/assets/139672321/b1a20bae-d384-4149-b0c0-84833e7b2bb8)
 
+
 When the Download is complete
  -> Network connection
 
+
 ctrl + alt + t -> Open terminal
 In a route directory
+
 ### Follow from ROBOTIS-Emanual (Turtlebot3-Quick start Guid)
 ```
 sudo apt update && sudo apt upgrade && wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
