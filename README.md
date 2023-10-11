@@ -45,6 +45,19 @@ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
 ```
 sudo apt install ros-noetic-dynamixel-sdk && sudo apt install ros-noetic-turtlebot3-msgs && sudo apt install ros-noetic-turtlebot3
 ```
+### Setting WiFi address
+```
+ifconifg
+```
+Find the inet addr 
+```
+sudo nano ~/.bashrc
+```
+Edit the "ROS_MASTER_URL=://localhost:11311" and "ROS_HOSTNAME=locahost"
+End edit
+```
+sb
+```
 
 
 
