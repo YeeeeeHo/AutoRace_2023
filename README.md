@@ -41,9 +41,7 @@ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
 ```
 ### Install Turtlebot3 Packages
 ```
-sudo apt install ros-noetic-dynamixel-sdk
-sudo apt install ros-noetic-turtlebot3-msgs
-sudo apt install ros-noetic-turtlebot3
+sudo apt install ros-noetic-dynamixel-sdk && sudo apt install ros-noetic-turtlebot3-msgs && sudo apt install ros-noetic-turtlebot3
 ```
 
 
