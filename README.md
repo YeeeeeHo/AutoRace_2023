@@ -54,6 +54,7 @@ Find the inet addr
 sudo nano ~/.bashrc
 ```
 Edit the "ROS_MASTER_URL=://localhost:11311" and "ROS_HOSTNAME=locahost"
+
 End edit
 ```
 sb
