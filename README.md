@@ -3,8 +3,8 @@
 ROBOTIS_autorace_2020 기반
 
 ## Requirments
-  1. ROS-Noetic
-  2. Ubuntu 20.04
+  1. Ubuntu 20.04
+  2. ROS-Noetic
   3. ELP_Webcam (170 degree)
 
 
