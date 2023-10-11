@@ -5,7 +5,8 @@ ROBOTIS_autorace_2020 기반
 ## Requirments
   1. Ubuntu 20.04
   2. ROS-Noetic
-  3. ELP_Webcam (170 degree)
+  3. OpenCV-4.5.0
+  4. ELP_Webcam (170 degree)
 
 
 ### 1. Ubuntu-20.04 install
