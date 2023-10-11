@@ -10,7 +10,7 @@ Written based on ROBOTIS_autorace_2020
   5. ELP_Webcam (170 degree)
 
 #### [PC_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/PC_SETUP.md)
-#### [SBC_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/SBC_SETUP)
+#### [SBC_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/SBC_SETUP.md)
 
 
 
