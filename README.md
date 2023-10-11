@@ -1,6 +1,6 @@
 # AutoRace_2023
 
-ROBOTIS_autorace_2020을 기반
+ROBOTIS_autorace_2020 기반
 
 ## Requirments
   1. ROS-Noetic
