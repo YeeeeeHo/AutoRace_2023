@@ -14,7 +14,7 @@ When the Download is complete
 ctrl + alt + t -> Open terminal
 In a route directory
 
-## 2.Install ROS-Noetic (Follow from ROBOTIS-Emanual Turtlebot3-Quick start Guid)
+## 2. Install ROS-Noetic (Follow from ROBOTIS-Emanual Turtlebot3-Quick start Guid)
 ```
 sudo apt update && sudo apt upgrade && wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
 chmod 755 ./install_ros_noetic.sh
