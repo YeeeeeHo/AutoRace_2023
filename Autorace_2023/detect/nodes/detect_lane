@@ -110,7 +110,7 @@ class DetectLane():
         bottom_x = self.bottom_x
         bottom_y = self.bottom_y
 
-        # 鳥瞰圖畫線
+       
         '''
         if self.calibration_mode == True:
             cv_image_calib = np.copy(cv_image_original)
@@ -128,10 +128,10 @@ class DetectLane():
 
             self.pub_calib.publish(self.cvBridge.cv2_to_compressed_imgmsg(cv_image_calib, "jpg"))
             
-        # 高斯濾波
+      
         cv_image_original = cv2.GaussianBlur(cv_image_original, (5, 5), 0)
 
-        # 鳥瞰圖轉換
+        
         pts_src = np.array([[160 - top_x, 180 - top_y], [160 + top_x, 180 - top_y], [160 + bottom_x, 120 + bottom_y], [160 - bottom_x, 120 + bottom_y]])
         pts_dst = np.array([[200, 0], [800, 0], [800, 600], [200, 600]])
         h, status = cv2.findHomography(pts_src, pts_dst)
@@ -145,7 +145,7 @@ class DetectLane():
         if self.calibration_mode == True:
             self.pub_projected.publish(self.cvBridge.cv2_to_compressed_imgmsg(cv_image_homography, "jpg"))
 
-        # 車道偵測
+      
         cv_lane = np.copy(cv_image_homography)
 
         white_fraction, cv_white_lane = self.maskWhiteLane(cv_lane)
