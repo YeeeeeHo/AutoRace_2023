@@ -33,3 +33,36 @@ unzip opencv.zip && unzip opencv_contrib.zip
 ```
 mv opencv-4.5.0 opencv && mv opencv_contrib-4.5.0 opencv_contrib && mv opencv_contrib opencv
 ```
+```
+cd ~/opencv && mkdir build && cd build
+```
+```
+cmake .. && sudo make
+```
+```
+sudo make install
+```
+```
+cd ~ && rm opencv.zip opencv_contrib.zip
+```
+```
+sudo touch /etc/ld.so.conf.d/opencv.conf
+```
+```
+sudo sh -c "echo \"/usr/local/lib\" >> /etc/ld.so.conf.d/opencv.conf"
+```
+```
+sudo ldconfig -y
+```
+```
+sudo sh -c "echo \"PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig\" >> /etc/bash.bashrc"
+```
+```
+sudo sh -c "echo \"export PKG_CONFIG_PATH\" >> /etc/bash.bashrc"
+```
+```
+source /etc/bash.bashrc
+```
+```
+sudo updatedb
+```
