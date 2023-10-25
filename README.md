@@ -11,7 +11,7 @@ Written based on ROBOTIS_autorace_2020
 
 #### [PC_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/PC_SETUP.md)
 #### [SBC_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/SBC_SETUP.md)
-
+#### [OPENCV_SETUP](https://github.com/YeeeeeHo/AutoRace_2023/blob/main/OpenCV_install.md)
 
 
 
